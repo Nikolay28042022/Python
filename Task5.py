@@ -14,4 +14,4 @@ x2 = int(input("Enter coordinate x2: "))
 y2 = int(input("Enter coordinate y2: "))
 
 AB = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-print(AB)
+print('{0:.3}'.format(AB))
